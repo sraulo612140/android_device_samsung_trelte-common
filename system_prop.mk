@@ -52,6 +52,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.omx_default_rank.sw-audio=1 \
     debug.stagefright.omx_default_rank=0
 
+# Disable SF composition prediction model
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.predict_hwc_composition_strategy=0
+
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
