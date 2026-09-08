@@ -25,7 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # BPF
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.kernel.ebpf.supported=false
+    ro.kernel.ebpf.supported=true
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
