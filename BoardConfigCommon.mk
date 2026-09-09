@@ -23,6 +23,8 @@ TARGET_SOC := exynos5433
 TARGET_BOOTLOADER_BOARD_NAME := universal5433
 BUILD_BROKEN_DUP_RULES := true
 
+TARGET_PRODUCT_PROP += device/samsung/trelte-common/product.prop
+
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2017-08-01
 
